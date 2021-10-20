@@ -1,5 +1,6 @@
 # SUSE-Cafe
 Personal Color scheme for KDE Plasma 5 &amp; Konsole.
+![Have a lot of fun...](https://i.imgur.com/FHNMsfy.png)
 # Instructions:
 Plasma 5 Color Scheme: \
 Put SUSECafe.colors in ~/.local/share/color-schemes
