@@ -1,17 +1,8 @@
-# SUSE-Cafe
-## Personal Color scheme for KDE Plasma 5 &amp; Konsole.
-![Have a lot of fun...](https://i.imgur.com/Ml1e4hL.png)
+# SUSE Café
+  Coffee lovers rejoice! I'm sharing my personal color scheme,simple, easy on the eyes, and chocolatey!
+## A Plasma 5 color scheme to remind you of the beans.
+![Have a lot of fun...](https://i.imgur.com/wfXEIL8.jpg)
+![Desktop Peek](https://i.imgur.com/dRTAJeF.png)
 # Instructions:
-Plasma 5 Color Scheme:  
-Put SUSECafe.colors in ~/.local/share/color-schemes
-
-Konsole:  
-Put Breeze SUSE.colorscheme in ~/.local/share/konsole/
-
+> Just run the bash script.
 # Please Note that the Papirus icon theme with the papirus-folders nordic color is the default for this  theme:
->sudo zypper in papirus-icon-theme papirus-folders
->
->>sudo papirus-folders -C nordic -t ePapirus  
-sudo papirus-folders -C nordic -t Papirus  
-sudo papirus-folders -C nordic -t Papirus-Light  
-sudo papirus-folders -C nordic -t Papirus-Dark
