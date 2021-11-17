@@ -12,4 +12,4 @@
 * Put SUSEKafe.colorscheme in ~/.local/share/konsole/
 * Select the SUSE Cafe color scheme from the Plasma color settings.
 * Select SUSE Cafe color scheme from Konsole's appearance settings.
-# Please Note that the Papirus icon theme with the papirus-folders nordic color is the default for this  theme.
+# Please Note that the Papirus icon theme with the papirus-folders nordic color is the default for this theme.
