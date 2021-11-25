@@ -1,26 +1,45 @@
 #!/bin/sh
-BR='\033[0;33m'
+#Index
+BROWN='\033[0;33m'
 RED='\033[0;31m'
-WHT='\e[1;37m'
+WHITE='\e[1;37m'
 
-printf "${BR}Installing SUSE Café..."
+#General
+printf "%b\n" "${WHITE}---------------------"
+printf "%b\n" "${BROWN}Installing SUSE Café..."
+printf "%b\n" "${WHITE}---------------------"
 mkdir -p $HOME/.local/share/color-schemes
 mkdir -p $HOME/.local/share/konsole
 cp ./SUSECafe.colors $HOME/.local/share/color-schemes/
 cp ./SUSEKafe.colorscheme $HOME/.local/share/konsole/
 sleep 1
 
-printf "%b\n" "${BR}Going to fetch Papirus icons & folders"
+#Papirus Download
+printf "%b\n" "${BROWN}Setting Papirus..."
 sleep 2
-sudo zypper install -yf papirus-icon-theme papirus-folders 
 
-printf "%b\n" "${BR}Going to Set up nordic colors"
-sleep 2
-sudo papirus-folders -C nordic -t ePapirus
-sudo papirus-folders -C nordic -t Papirus
-sudo papirus-folders -C nordic -t Papirus-Light
-sudo papirus-folders -C nordic -t Papirus-Dark
+if [ "$(ls /bin/|grep -x zypper)" = "zypper" ] ||
+   [ "$(ls /bin/|grep -x dnf)" = "dnf" ] ||
+   [ "$(ls /bin/|grep -x pacman)" = "pacman" ] ||
+   [ "$(ls /bin/|grep -x apt)" = "apt" ]; then
+    sudo zypper in -yf papirus-icon-theme papirus-folders
+#|| sudo pacman -S papirus-icon-theme papirus-folders --noconfirm
 
-printf "%b\n" "${RED}Have a lot of fun..."
-sleep 2
-printf "%b\n" "${WHT}Now go & apply!"
+#Papirus Setup
+    printf "%b\n" "${BROWN}Setting up nordic colors"
+    sudo papirus-folders -C nordic -t ePapirus
+    sudo papirus-folders -C nordic -t Papirus
+    sudo papirus-folders -C nordic -t Papirus-Light
+    sudo papirus-folders -C nordic -t Papirus-Dark
+    printf "%b\n" "${RED}Have a lot of fun..."
+    sleep 2
+    printf "%b\n" "${WHITE}Now go & apply!"
+
+else
+    printf "%b\n" ${RED}"Shenanigans, shenanigans,shenanigans!!"
+    sleep 2
+    #Exit
+    printf "%b\n" "${BROWN}Didn't find zypper :("
+    sleep 1
+    printf "%b\n" "${WHITE}Go & apply the colors!"
+fi
