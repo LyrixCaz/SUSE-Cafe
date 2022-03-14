@@ -1,8 +1,8 @@
 # SUSE Café [WIP]
   Coffee lovers rejoice! I'm sharing my personal color scheme. Simple, easy on the eyes, and a bit chocolatey!
 ## A Plasma 5 color scheme to remind you of the beans.
-![Have a lot of fun...](https://i.imgur.com/wfXEIL8.jpg)
-![Desktop Peek](https://i.imgur.com/VjkTHNC.png)
+![Have a lot of fun...](https://i.imgur.com/4EGIcud.png)
+![Desktop Peek](https://i.imgur.com/OAa7zby.jpg)
 # Theme instructions:
 * Run the bash script. (WIP)
 * Select the SUSE Cafe color scheme from the Plasma color settings.
