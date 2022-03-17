@@ -14,4 +14,4 @@
 * Select the SUSE Cafe color scheme from the Plasma color settings.
 * Select SUSE Cafe color scheme from Konsole's appearance settings.
 # Tips & recommendations:
-* Poppins x10pt for Desktop + Roboto Mono [GOOG] x10pt for terminal emulators.
+* Poppins x10pt for Desktop + Roboto Mono [GOOG] x10pt for the terminal.
