@@ -14,5 +14,5 @@
 * Select the SUSE Cafe color scheme from the Plasma color settings.
 * Select SUSE Cafe color scheme from Konsole's appearance settings.
 # Tips & recommendations:
-* Use this typography for a more prestine blend: ![Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins%22)
+* Use this typography for a more prestine blend: [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins?query=poppins%22)
 * Poppins x10pt for Desktop + Roboto Mono [GOOG] x10pt for terminal emulators
