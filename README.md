@@ -14,3 +14,4 @@
 * Put SUSEKafe.colorscheme in ~/.local/share/konsole/
 * Select the SUSE Cafe color scheme from the Plasma color settings.
 * Select SUSE Cafe color scheme from Konsole's appearance settings.
+* Got to **system settings > Appearance > Fonts > "Adjust All Fonts"** & select: _Poppins_ x10pt for Desktop + _Roboto Mono [GOOG]_ x10pt for the terminal
