@@ -1,4 +1,4 @@
-# Available at the [KDE Store](https://store.kde.org/)
+![logo](https://kde.org/images/plasma.svg)Available at the [KDE Store](https://store.kde.org/)
 # SUSE Café
   Coffee lovers rejoice! I'm sharing my personal color scheme. Simple, easy on the eyes, and a bit chocolatey!
 ## A Plasma 5 color scheme to remind you of the beans.
