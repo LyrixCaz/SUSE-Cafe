@@ -1,15 +1,15 @@
 [Background]
-Color=43,45,45
+Color=33,37,41
 RandomHueRange=360
 RandomSaturationRange=100
 
 [BackgroundFaint]
-Color=43,45,45
+Color=33,37,41
 RandomHueRange=360
 RandomSaturationRange=100
 
 [BackgroundIntense]
-Color=0,0,0
+Color=33,37,41
 RandomHueRange=360
 RandomSaturationRange=100
 
@@ -86,7 +86,7 @@ Color=155,155,155
 Color=255,255,255
 
 [Foreground]
-Color=239,239,239
+Color=172,180,188
 RandomHueRange=360
 RandomSaturationRange=100
 
@@ -101,8 +101,12 @@ RandomHueRange=360
 RandomSaturationRange=100
 
 [General]
+Anchor=0.5,0.5
 Blur=false
 ColorRandomization=false
 Description=SUSE Cafe
-Opacity=1
+FillStyle=Tile
+Opacity=0.95
 Wallpaper=
+WallpaperFlipType=NoFlip
+WallpaperOpacity=1
