@@ -1,7 +1,7 @@
 ![logo](https://i.imgur.com/WFh4Qfj.png)Available at the [KDE Store](https://store.kde.org/p/1739623/)
 # SUSE Café
   Coffee lovers rejoice! I'm sharing my personal color scheme. Simple, easy on the eyes, and a bit chocolatey!
-## A Plasma 5 color scheme to ease you in & remind you of a smooth, fine, blend..
+## A Plasma color scheme to ease you in & remind you of a smooth, fine, blend..
 ![Have a lot of fun...](https://i.imgur.com/ap8KboW.png)
 ![Desktop Peek](https://i.imgur.com/tpgK0pC.jpeg)
 # Theme instructions:
